@@ -1,0 +1,191 @@
+/*
+STYLES GUIDE:
+1. GENERAL
+2. HEADER
+3. SECTION ONE
+4. SECTION TWO
+5. SECTION FOOTER
+-----------------
+*/
+
+
+
+
+/* -------- 2. HEADER -------- */
+
+.header_class {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 40%;
+    left: 0;
+}
+
+
+.section_zero {
+    background: linear-gradient(90deg, rgb(243, 12, 12) 0%, rgb(17, 4, 4) 100%);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+}
+/* -------   SECCTION SERCH ------ */
+
+
+.section_one_nav_search{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.nav_search_item{
+    padding: 0.2rem 0.2rem;
+    color: white;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+
+.lista_one_nav {
+    font-size: 1.3rem;
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+    padding-bottom: 2rem;
+ }
+/* -------- 3. SECTION ONE ------- */
+.navegation {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 60%;
+    right: 0;
+}
+@media (min-width: 481px) and (max-width: 860px){
+    .navegation {
+        position: relative;
+        width: 100%;
+    }
+    .section_zero {
+        position: relative;
+    }
+    .header_class {
+        width: 100%;
+    }
+}
+.bottom{
+    height: 0;
+}
+
+.top{
+    height: 5rem;
+}
+.item_image {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 2rem;
+}
+.item_title {
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/* -------- SECTION CONTACTS-------- */
+.contacts{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.contacts_map{
+    width: 50%;
+    padding: 1rem 2rem;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+.contacts_info{
+    width: 50%;
+    padding: 1rem 2rem;
+}
+@media (min-width: 481px) and (max-width: 860px){
+    .contacts{
+        display: block;
+    }
+    .contacts_map{
+        width: 100%;
+    }
+    .contacts_info{
+        width: 92%;
+    }
+}
+
+
+
+
+
+.contacts_title{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.contacts_information{
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    color: white;
+    text-align: center;
+ 
+}
+.contacts_contact_us{
+    font-size: 1rem;
+    padding: 2rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+.contacts_form{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    height: 20rem;
+    width: 100%;
+}
+.contacts_input{
+display: flex;
+width: 100%;
+
+}
+.contacts_name {
+    font-size: 1rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(243, 12, 12) 0%, rgb(17, 4, 4) 100%);
+    border-radius: 1rem;
+}
+.contacts_email{
+    font-size: 1rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(243, 12, 12) 0%, rgb(17, 4, 4) 100%);
+    border-radius: 1rem;
+    
+}
+.contacts_messaje{
+    height: 6rem;
+    grid-column: 1/3;
+    font-size: 1rem;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(243, 12, 12) 0%, rgb(17, 4, 4) 100%);
+    border-radius: 1rem;
+}
+.contacts_send{
+    background: linear-gradient(90deg, rgb(243, 12, 12) 0%, rgb(17, 4, 4) 100%);
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    border: solid;
+    color: white;
+}

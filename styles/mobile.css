@@ -1,0 +1,55 @@
+/*
+STYLES GUIDE:
+1. GENERAL
+2. HEADER
+3. SECTION ONE
+4. SECTION TWO
+5. SECTION FOOTER
+-----------------
+*/
+
+/*------- 1. SECTION ONE  -------*/
+
+.navegation_item{
+    width: 100%;
+    display: inline-grid;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+
+/* -------- 2. HEADER -------- */
+
+.header_class {
+
+}
+
+
+/* -------- 3. SECTION ONE -------- */
+.navegation {
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(243, 12, 12) 0%, rgb(17, 4, 4) 100%);
+}
+
+.item_image {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 2rem;
+}
+
+.item_title {
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+}
+
+
+.bottom{
+    height: 4rem;
+}
+
+.top{
+    height: 0;
+}

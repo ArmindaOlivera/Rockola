@@ -1,0 +1,112 @@
+/* Reset CSS style */
+@import url('reset.css');
+/*
+STYLES GUIDE:
+1. GENERAL
+2. HEADER
+3. SECTION ONE
+4. SECTION TWO
+5. SECTION FOOTER
+-----------------
+*/
+
+/* -------- 1. GENERAL -------- */
+
+body {
+    width: 100%;
+    font-family: 'Architects Daughter';
+    background: linear-gradient(90deg, rgb(243, 12, 12) 0%, rgb(17, 4, 4) 100%);
+}
+
+.flex {
+    display: flex;
+}
+/* -------- 2. HEADER -------- */
+.header_title {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc,
+                0 2px 0 #c9c9c9,
+                0 3px 0 #bbb, 
+                0 4px 0 #b9b9b9, 
+                0 5px 0 #aaa, 
+                0 6px 1px rgba(0, 0, 0, .1), 
+                0 0 5px rgba(0, 0, 0, .1), 
+                0 1px 3px rgba(0, 0, 0, .3), 
+                0 3px 5px rgba(0, 0, 0, .2), 
+                0 5px 10px rgba(0, 0, 0, .25), 
+                0 10px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15)
+}
+
+
+
+/* -------- 3. SECTION ONE -------- */
+
+.section_one {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.section_title {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    color: white;
+    font-weight: bold;
+}
+
+.section_content {
+    display: inline-block;
+}
+
+.content_item {
+  
+    display: inline-grid;
+    padding: 1rem;
+}
+
+.section_two {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.navegation_items {
+
+    padding: 1rem 3rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #310505;
+  }
+
+/* -------   SECCTION SERCH ------ */
+  .section_search_text{
+    border-radius: 2rem;
+    padding: 0.01rem;
+    width: 30%;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 35%;
+    height: 2.5rem;
+    border: solid;
+    color: white;
+    background: black;
+}
+::-webkit-input-placeholder { color: white; } 
+
+b{
+    font-weight: bold;
+}

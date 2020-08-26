@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+    <link href="styles/mobile.css" rel="stylesheet" media="handheld, only screen and (max-width: 480px)"/>
+    <link href="styles/desktop.css" rel="stylesheet" media="screen and ( min-width:481px )"/>
+    <link href="styles/common.css" rel="stylesheet"/>
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockola</title>
+</head>
+
+<body>
+    <div class="top"></div>
+    <section class="section_zero">
+        <header class="header_class">
+            <h1 class="header_title">Rockola</h1>
+        </header>
+        <div class="navegation flex">
+            <nav class="navegation_items flex">
+                <button class="btn" onclick="window.location.href='index.html';">
+                    <i class="fa fa-home" ></i> Home
+                </button>
+                <button class="btn"  onclick="window.location.href='search.html';">
+                    <i class="fa fa-search"></i> Search
+                </button>
+                <button class="btn"  onclick="window.location.href='library.html';">
+                    <i class="fa fa-folder"></i> Library
+                </button>
+                <button class="btn"  onclick="window.location.href='contact_us.html';">
+                    <i class="fa fa-bars"></i> contacts
+                </button>
+            </nav>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="contacts_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15906.596748866252!2d-74.06525015!3d4.656495549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1597878346744!5m2!1ses-419!2sco" width="90%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div class="contacts_info">
+            <h1 class="contacts_title">contacts</h1>
+            <p class="contacts_information"> <b>Dirección:</b> Av 23 de Marzo, Cochabamba</p>
+            <p class="contacts_information"> <b>Teléfono:</b> 77464052</p>
+            <p class="contacts_information"> <b>Correo electrónico :</b> info_Rokola@email.com</p>
+            <h2 class="contacts_contact_us">ASK US A QUESTION</h2>
+            <div class="contacts_form">
+                <input class="contacts_name" type="text" placeholder="name">
+                <input class="contacts_email" type="text" placeholder="email">
+                <input class="contacts_messaje" type="text" placeholder="messaje">
+                <input class="contacts_send" type="submit" value="Enviar" />
+            </div>
+        </div>
+        
+    </section>
+    <div class="bottom"></div>
+
+</body>
+
+</html>
